@@ -15,9 +15,7 @@ def check_password():
         elif re.search('[0-9]',password) is None:
             print("Make sure your password has a number in it")
         elif re.search('[A-Z]',password) is None: 
-            print("Make sure your password has a capital letter in it")
-        elif re.search('[!,@,#,$,%,&,*]',password) is None: 
-            print("Make sure your password has a capital letter in it")            
+            print("Make sure your password has a capital letter in it")         
         else:
             print("Your password is acceptable")
             break
