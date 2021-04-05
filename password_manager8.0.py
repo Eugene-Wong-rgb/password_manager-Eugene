@@ -55,7 +55,7 @@ while True:
             account_password = check_password()
         #write to file
             with open("Account_file.txt", 'a') as file:
-                file.write("{} {}".format(account, account_password ))
+                file.write("Account name: {} Password: {}".format(account, account_password ))
                 file.write("\n")
                 break
 
